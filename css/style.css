@@ -1,0 +1,53 @@
+/* ===== Fonts ===== */
+@import url("https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;500;600;700&display=swap");
+
+/* ====== Common Style Start ====== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,
+h2,
+p {
+  line-height: 0;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 1100px;
+  margin: 0 auto;
+}
+/* ====== Common Style End ====== */
+
+/* ====== Counter Up Design Start ====== */
+#counterUp {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.counterWrapper {
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+}
+.counter_item {
+  height: 150px;
+  width: 300px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  font-family: "Wix Madefor Display", sans-serif;
+  background: linear-gradient(to right, rgba(41, 41, 245, 0.796), rgb(121, 121, 248));
+  border-radius: 15px;
+  color: #fff;
+  font-weight: 600;
+}
+/* ====== Counter Up Design End ====== */
